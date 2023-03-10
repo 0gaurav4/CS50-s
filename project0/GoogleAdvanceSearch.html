@@ -1,3 +1,4 @@
+<html>
 <head>
     <title>Image Search</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -15,40 +16,28 @@
     </header>  
     
     <!-- GOOGLE IMG -->  
-    <div class="google">
-      <a href="" id="google_logo"><img src="googlelogo.png" height="92" width="272"></a>
-      <p style="color:blue">Advance Search</p>
+    <div class="appbar"> 
+      <label class="l1">Google</label>
+      <br>
+      <label class="l2">Advanced Search</label>  
+      <hr style="border-color: #3c4043;">  
     </div>
     
     <!-- FORM SEARCH -->  
-    <div class="form">  
+    <div class="form" style="float:left; padding: 10px; margin-left: 25px; ">  
         <form action="https://www.google.com/search?as_q=+&as_epq=&as_oq=&as_eq=&as_nlo=&as_nhi=&lr=&cr=&as_qdr=all&as_sitesearch=&as_occt=any&safe=active&as_filetype=&tbs=" name="f">
         <label for="form-search"></label>
-        <pre>
-All these words    :<input type="text" name="as_q" />
-           <br><br>Exact word/phrase  :<input type="text" name="as_epq" />
-           <br><br>Any of these words :<input type="text" name="as_oq" />
-           <br><br>None of these words:<input type="text" name="as_eq" />
-          <br><br> <input type="submit" value="Advanced Search" style="font-size: large;">
+<pre>
+<p style="float:left; margin-left: 0px; ">Find pages with...</p> 
+All these words    : <input type="text" name="as_q" placeholder="Type the important words: tri-colour rat terrier" />
+           <br><br>Exact word/phrase  : <input type="text" name="as_epq" placeholder="Put exact words in quotes: &#8220;rat terrier&#8221;" /> 
+           <br><br>Any of these words : <input type="text" name="as_oq" placeholder="Type OR between all the words you want: miniature OR standard" />
+           <br><br>None of these words: <input type="text" name="as_eq" placeholder="Put a minus sign just before words that you don't want: -rodent, -&#8220;Jack Russell&#8221;" />
+          <input type="submit" value="Advanced Search" style="font-size: large; background-color: #4d90fe; margin-left: 55%;">
         </pre>
 </form>
         
     </div>  
-    
- <br>
- <br>
- <br>
-    <!-- FOOTER -->
-    <footer>
-        <ul class="footer-left">
-          <li><a href="#">Advertising</a></li>
-          <li><a href="#">Business</a></li>
-          <li><a href="#">About</a></li> 
-        </ul>
-        <ul class="footer-right">    
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Terms</a></li>
-          <li><a href="#">Settings</a></li>
-        </ul>       
-    </footer>      
+
   </body>
+  </html>
