@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <head>
     <title>Registration Form</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <style>
         *{
             padding: 0.1%;
@@ -17,27 +16,6 @@
             }
         }
     </style>
-    <script>
-        function fun()
-        {
-            alert("Name: "+form1.uname.value  +
-            "    Email: "+form1.email.value  + 
-            "    Gender: "+form1.gender.value  + 
-            "    Address: "+form1.address.value);
-            var a=(document.form1.password.value);
-            var b=(document.form1.cpassword.value);
-            if (a==b){
-                confirm("Submit")
-                return true;
-            }
-            else 
-            {
-                alert("password not matched with confirm password");
-                document.getElementById("form1").reset();
-                return false;
-            }
-        }
-    </script>
 </head>
 <body>
     <h1>Registration Form</h1>
