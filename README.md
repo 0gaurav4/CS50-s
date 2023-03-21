@@ -11,3 +11,5 @@ MCADS sem2 wad ... registration form method=get without javascript https://0gaur
 MCADS sem2 wad ... registration form method=get with javascript https://0gaurav4.github.io/CS50-s/MCADS%20sem2%20WAD/reg_get.html
 
 MCADS sem2 wad ... registration form method=post with javascript https://0gaurav4.github.io/CS50-s/MCADS%20sem2%20WAD/reg_post.html
+
+MCADS sem2 wad ... Frame https://0gaurav4.github.io/CS50-s/MCADS%20sem2%20WAD/frame.html
