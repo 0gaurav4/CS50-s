@@ -2,14 +2,13 @@
 <html>
 <head>
     <title>frame</title>
-    <frameset rows="20%,*">
-        <frame src="header.html" id="f1">
-            <frameset cols="30%,*">
-
-                <frame src="left.html">
-                    <frame src="right.html" name="frameR">
-
+    <frameset cols="20%,60%,20%">
+        <frame src="left.html" noresize>
+            <frameset rows="20%,*">
+        <frame src="header.html" id="f1" noresize>
+                <frame src="right.html" name="frameR" noresize>
             </frameset>
+            <frame src="end.html" noresize>
     </frameset>
 </head>
 </html>
