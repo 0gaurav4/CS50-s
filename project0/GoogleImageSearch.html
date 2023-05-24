@@ -1,55 +1,35 @@
-<html>
+﻿<!DOCTYPE html>
+<html lang="en">
 <head>
-    <title>Image Search</title>
-    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <meta content="dark" name="color-scheme">
-  </head>
-  
-  <body>
-    <header>
-      <nav>
-        <ul id="nav_bar">
-          <li class="nav-links" id="image"><a href="index.html">Go Back To Google Search</a></li>
-        </ul>  
-      </nav>  
-    </header>  
-    
-    <!-- GOOGLE IMG -->  
-    <div class="google">
-      <a href="" id="google_logo"><img src="googlelogo.png" height="92" width="272"></a>
-      <p style="color:blue">Images</p>
+    <!-- Set viewport with -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Link to CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <title>Image search</title>
+</head>
+<body>
+    <!-- HEADER START -->
+    <div class="header">
+        <div class="header-links">
+            <a href="index.html">Google Search</a>
+            <a href="GoogleAdvanceSearch.html">Google Advanced Search</a>
+        </div>
     </div>
-    
-    <!-- FORM SEARCH -->  
-    <div class="form">  
-      <form action="https://www.images.google.com/images">
-        <label for="form-search"></label>
-        <input type="text" id="form-search" placeholder="🔎Search Google or type URL" name="q" style="border-radius: 80px;">
-        <br><br>
-        <input type="submit" value="Google Image Search" id="google_search"  style="font-size: large;">
-      </form>
-    </div>  
-    
-    <!-- BUTTONS -->
-    <div class= "buttons">  
-        <form action="https://www.google.com/doodles">
-      <!-- <input type="submit" value="I'm Feeling Lucky" id="im_feeling_lucky"> -->
-      </form>
+    <!-- HEADER END -->
+    <!-- SEARCH CONTAINER START -->
+    <div class="search-container">
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="Google logo" />
+        <div class="logo-subtext">
+            <span>images</span>
+        </div>
+        <form action="https://www.google.com/search" method="get">
+            <div class="search-field">
+                <svg height="21" viewBox="0 0 21 21" width="21" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd" stroke="#808080" stroke-linecap="round" stroke-linejoin="round"><circle cx="8.5" cy="8.5" r="5" /><path d="m17.571 17.5-5.571-5.5" /></g></svg>
+                <input type="text" name="q">
+            </div>
+            <input type="hidden" name="tbm" value="isch" />
+        </form>
     </div>
-      
-    <!-- FOOTER -->
-    <footer>
-        <ul class="footer-left">
-          <li><a href="#">Advertising</a></li>
-          <li><a href="#">Business</a></li>
-          <li><a href="#">About</a></li> 
-        </ul>
-        <ul class="footer-right">    
-          <li><a href="#">Privacy</a></li>
-          <li><a href="#">Terms</a></li>
-          <li><a href="#">Settings</a></li>
-        </ul>       
-    </footer>      
-  </body>
-  </html>
+    <!-- SEARCH CONTAINER END -->
+</body>
+</html>
